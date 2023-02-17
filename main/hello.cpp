@@ -3,8 +3,7 @@
 using namespace std;
 
 int main(void) {
-	cout<<"New testing, this worked\n";
-  cout << "Hello, World\n";
+	cout<<"New testing\n";
   cout << "Hello, Jenkins\n";
   cout << "I have successfully built and run\n";
   return 0;
