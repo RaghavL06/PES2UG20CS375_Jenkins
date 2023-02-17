@@ -3,19 +3,19 @@ pipeline {
 	 stages {
 		 stage('Build') {
 		 steps {
-			 s 'g++ -o PES2UG20CS375-1 ./new.cpp'
-			 echo 'BuildiNG successful'
+			 s 'g++ -o PES2UG20CS375-1 ./main/hello.cpp'
+			 echo 'Successful building'
 		 }
 	 	}
 		 stage('Test') {
 			 steps {
 			 sh './PES2UG20CS375-1'
-			 echo 'Testing successful'
+			 echo 'Successful testing'
 			 }
 		 }
 		 stage('Deploy') {
 			 steps {
-			 echo 'Deploying successful'
+			 echo 'Successful deployment'
 			 }
 		 }
 	}
